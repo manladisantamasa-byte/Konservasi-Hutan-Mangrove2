@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Konservasi Hutan Mangrove di Seacorm</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Inter sebagai font utama */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style untuk memastikan kontinuitas halaman */
+        .report-content h2 {
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: 700; /* font-bold */
+            margin-top: 2.5rem; /* mt-10 */
+            margin-bottom: 1.5rem; /* mb-6 */
+            padding-bottom: 0.5rem; /* pb-2 */
+            border-bottom: 2px solid #E5E7EB; /* border-b-2 border-gray-200 */
+        }
+        .report-content h3 {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            margin-top: 2rem; /* mt-8 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .report-content p, .report-content li {
+            font-size: 1rem; /* text-base */
+            line-height: 1.75; /* leading-relaxed */
+            color: #374151; /* text-gray-700 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .report-content ul {
+            list-style-position: inside;
+            list-style-type: disc;
+            margin-left: 1rem; /* ml-4 */
+        }
+        .report-content ol {
+            list-style-position: inside;
+            list-style-type: decimal;
+            margin-left: 1rem; /* ml-4 */
+        }
+        .report-content a {
+            color: #2563EB; /* text-blue-600 */
+            text-decoration: none;
+        }
+        .report-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 md:p-12">
+
+    <!-- Kontainer Utama Laporan -->
+    <main class="max-w-5xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden">
+        
+        <!-- Header: Judul dan Logo -->
+        <header class="p-8 md:p-12 border-b-4 border-blue-600">
+            <div class="flex justify-between items-start">
+                <!-- Blok Judul -->
+                <div class="flex-grow pr-8">
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+                        Laporan Kegiatan Kunjungan Studi: Menjelajahi Upaya Konservasi Hutan Mangrove di Seacorm
+                    </h1>
+                    <p class="text-lg md:text-xl font-semibold text-blue-700">
+                        Laporan Kegiatan Kunjungan Lapangan
+                    </p>
+                    <p class="text-base text-gray-600 mt-4">
+                        Oleh: Kelas VIII B
+                    </p>
+                    <p class="text-base text-gray-600">
+                        SMP Negeri 2 Negara
+                    </p>
+                </div>
+                <!-- Logo -->
+                <img src="https://files.catbox.moe/85tnyp.jpg" 
+                     alt="Logo" 
+                     class="w-24 h-24 md:w-28 md:h-28 object-contain flex-shrink-0 rounded-md shadow-sm"
+                     onerror="this.src='https://placehold.co/112x112/eeeeee/999999?text=Logo'; this.onerror=null;">
+            </div>
+        </header>
+
+        <!-- Konten Laporan -->
+        <article class="p-8 md:p-12 report-content">
+
+            <!-- Kata Pengantar -->
+            <section id="kata-pengantar">
+                <h2 class="text-center !border-b-0 !mb-8">Kata Pengantar</h2>
+                
+                <p>Puji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa, karena atas berkat rahmat dan karunia-Nya, kami, siswa-siswi Kelas VIII B, dapat menyelesaikan Laporan Kegiatan Kunjungan Studi ke Seacorm ini dengan baik dan tepat waktu.</p>
+                
+                <p>Tujuan utama dari pembuatan laporan ini adalah untuk mendokumentasikan, menganalisis, dan membagikan wawasan yang kami peroleh selama kunjungan ke Seacorm. Kunjungan ini berfokus pada pemahaman mendalam mengenai ekosistem hutan mangrove, tantangan yang dihadapinya, serta berbagai upaya konservasi yang telah dan sedang diimplementasikan oleh pihak Seacorm.</p>
+                
+                <p>Laporan ini mengulas secara rinci temuan-temuan kami di lapangan, mulai dari identifikasi berbagai spesies mangrove, analisis kondisi ekosistem, hingga wawancara dengan para ahli dan pengelola di Seacorm. Kami juga menyertakan landasan teori yang relevan untuk memperkuat analisis dan pembahasan.</p>
+                
+                <p>Penyusunan laporan ini tidak akan terwujud tanpa bantuan dan bimbingan dari berbagai pihak. Oleh karena itu, kami ingin menyampaikan ucapan terima kasih yang tulus kepada:</p>
+                <ol>
+                    <li>Bapak/Ibu Guru Pembimbing, yang telah memberikan arahan dan masukan yang sangat berharga.</li>
+                    <li>Seluruh staf dan pengelola Seacorm, yang telah menerima kami dengan hangat dan berbagi ilmu serta pengalaman yang tak ternilai harganya.</li>
+                    <li>Orang tua kami, yang telah memberikan dukungan moril dan materil.</li>
+                    <li>Teman-teman Kelas VIII B, atas kerja sama dan semangatnya selama kunjungan hingga penyusunan laporan.</li>
+                </ol>
+                
+                <p>Kami menyadari bahwa laporan ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran yang membangun sangat kami harapkan untuk perbaikan di masa mendatang. Semoga laporan ini dapat memberikan manfaat, menambah wawasan, dan menumbuhkan kesadaran kita semua akan pentingnya pelestarian hutan mangrove.</p>
+
+                <div class="mt-12 text-right">
+                    <p class="mb-0">Jembrana, 7 November 2025</p>
+                    <p class="mt-16 mb-0 font-semibold">Penyusun, Kelas VIII B</p>
+                </div>
+            </section>
+
+            <!-- Daftar Isi -->
+            <section id="daftar-isi">
+                <h2>Daftar Isi</h2>
+                <ul class="space-y-2 text-base">
+                    <li><a href="#kata-pengantar">Kata Pengantar</a></li>
+                    <li><a href="#daftar-isi">Daftar Isi</a></li>
+                    <li><a href="#bab1">Bab I: Pendahuluan</a>
+                        <ul class="ml-6 mt-1">
+                            <li><a href="#bab1-1">1.1 Latar Belakang</a></li>
+                            <li><a href="#bab1-2">1.2 Rumusan Masalah</a></li>
+                            <li><a href="#bab1-3">1.3 Tujuan Laporan</a></li>
+                            <li><a href="#bab1-4">1.4 Manfaat Laporan</a></li>
+                            <li><a href="#bab1-5">1.5 Metode Pengumpulan Data</a></li>
+                            <li><a href="#bab1-6">1.6 Sistematika Penulisan</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#bab2">Bab II: Landasan Teori</a>
+                        <ul class="ml-6 mt-1">
+                            <li><a href="#bab2-1">2.1 Pengertian dan Fungsi Ekosistem Mangrove</a></li>
+                            <li><a href="#bab2-2">2.2 Konservasi Hutan Mangrove</a></li>
+                            <li><a href="#bab2-3">2.3 Kerangka Konseptual Kunjungan</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#bab3">Bab III: Pembahasan dan Hasil Kunjungan</a>
+                        <ul class="ml-6 mt-1">
+                            <li><a href="#bab3-1">3.1 Profil dan Program Konservasi Seacorm</a></li>
+                            <li><a href="#bab3-2">3.2 Analisis Temuan Lapangan</a></li>
+                            <li><a href="#bab3-3">3.3 Studi Kasus: Program Rehabilitasi dan Edukasi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#bab4">Bab IV: Kesimpulan dan Saran</a>
+                        <ul class="ml-6 mt-1">
+                            <li><a href="#bab4-1">4.1 Kesimpulan</a></li>
+                            <li><a href="#bab4-2">4.2 Saran</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#daftar-pustaka">Daftar Pustaka</a></li>
+                    <li><a href="#lampiran">Lampiran</a></li>
+                </ul>
+            </section>
+
+            <!-- Bab I -->
+            <section id="bab1">
+                <h2>Bab I: Pendahuluan</h2>
+                
+                <h3 id="bab1-1">1.1 Latar Belakang</h3>
+                <p>Hutan mangrove merupakan ekosistem unik yang berada di zona peralihan antara darat dan laut. Indonesia, sebagai negara kepulauan, memiliki sekitar 20% dari total luas hutan mangrove dunia, menjadikannya pemilik ekosistem mangrove terluas. Ekosistem ini memiliki peran vital yang tak tergantikan, baik secara ekologi maupun ekonomi. Secara ekologi, mangrove berfungsi sebagai benteng alami pelindung pantai dari abrasi, badai, dan tsunami; menjadi tempat pemijahan (spawning ground) dan pembesaran (nursery ground) bagi berbagai biota laut; serta menjadi penyerap karbon (carbon sink) yang jauh lebih efektif daripada hutan tropis daratan.</p>
+                <p>Namun, dalam beberapa dekade terakhir, ekosistem ini menghadapi ancaman serius. Konversi lahan untuk tambak, permukiman, perkebunan, serta pencemaran limbah domestik dan industri telah menyebabkan degradasi mangrove yang masif. Hilangnya hutan mangrove tidak hanya merugikan secara ekologi, tetapi juga mengancam mata pencaharian masyarakat pesisir. Menyadari urgensi ini, berbagai upaya konservasi mulai digalakkan. Seacorm, sebagai salah satu pusat studi dan konservasi kelautan, berada di garis depan dalam upaya penyelamatan ekosistem vital ini. Oleh karena itu, kami, Kelas VIII B, memandang perlu untuk melakukan kunjungan studi langsung ke Seacorm guna memahami secara nyata tantangan dan praktik terbaik dalam konservasi hutan mangrove.</p>
+
+                <h3 id="bab1-2">1.2 Rumusan Masalah</h3>
+                <p>Berdasarkan latar belakang tersebut, kami merumuskan beberapa pertanyaan penelitian yang akan dijawab melalui laporan ini:</p>
+                <ol>
+                    <li>Spesies mangrove apa saja yang dominan ditemukan di kawasan Seacorm dan bagaimana kondisi ekosistemnya saat ini?</li>
+                    <li>Apa saja ancaman dan tantangan utama yang dihadapi dalam upaya konservasi hutan mangrove di Seacorm?</li>
+                    <li>Bagaimana strategi dan metode konservasi (rehabilitasi, edukasi, dan pemberdayaan masyarakat) yang diterapkan oleh Seacorm untuk mengatasi permasalahan tersebut?</li>
+                </ol>
+
+                <h3 id="bab1-3">1.3 Tujuan Laporan</h3>
+                <p>Kunjungan dan penyusunan laporan ini memiliki beberapa tujuan spesifik:</p>
+                <ol>
+                    <li>Mengidentifikasi keragaman hayati, khususnya spesies mangrove, dan menganalisis kondisi kesehatan ekosistem di Seacorm.</li>
+                    <li>Menganalisis faktor-faktor ancaman utama yang menyebabkan degradasi mangrove di lokasi studi.</li>
+                    <li>Mendeskripsikan dan mengevaluasi efektivitas program konservasi yang diimplementasikan oleh Seacorm sebagai model pembelajaran.</li>
+                </ol>
+
+                <h3 id="bab1-4">1.4 Manfaat Laporan</h3>
+                <p>Laporan ini diharapkan dapat memberikan manfaat bagi berbagai pihak:</p>
+                <ul>
+                    <li><strong>Bagi Siswa:</strong> Menambah wawasan, pengetahuan, dan pengalaman empiris mengenai ekosistem mangrove dan pentingnya konservasi.</li>
+                    <li><strong>Bagi Sekolah:</strong> Menjadi bahan referensi dan dokumentasi akademik, serta masukan untuk pengembangan kurikulum berbasis lingkungan.</li>
+                    <li><strong>Bagi Masyarakat Umum:</strong> Memberikan informasi dan menumbuhkan kesadaran kolektif akan pentingnya menjaga kelestarian hutan mangrove.</li>
+                </ul>
+
+                <h3 id="bab1-5">1.5 Metode Pengumpulan Data</h3>
+                <p>Dalam penyusunan laporan ini, kami menggunakan tiga metode pengumpulan data primer:</p>
+                <ol>
+                    <li><strong>Observasi Langsung:</strong> Melakukan pengamatan visual secara langsung di kawasan hutan mangrove Seacorm, mencakup identifikasi jenis tanaman, kondisi perakaran, substrat, dan biota yang berasosiasi.</li>
+                    <li><strong>Wawancara:</strong> Melakukan tanya jawab semi-terstruktur dengan pemandu, pengelola, dan peneliti di Seacorm untuk mendapatkan data kualitatif mengenai sejarah, program, dan tantangan konservasi.</li>
+                    <li><strong>Dokumentasi:</strong> Mengambil foto dan video sebagai data visual untuk mendukung temuan dan analisis dalam laporan.</li>
+                </ol>
+
+                <h3 id="bab1-6">1.6 Sistematika Penulisan</h3>
+                <p>Laporan ini disusun secara sistematis yang terdiri dari empat bab utama. Bab I adalah Pendahuluan, yang menjelaskan konteks dan kerangka laporan. Bab II adalah Landasan Teori, yang menguraikan konsep-konsep dasar terkait mangrove dan konservasi. Bab III adalah Pembahasan, yang berisi analisis data dan temuan lapangan di Seacorm. Bab IV adalah Kesimpulan dan Saran, yang merangkum temuan dan memberikan rekomendasi. Laporan ini diakhiri dengan Daftar Pustaka dan Lampiran.</p>
+            </section>
+
+            <!-- Bab II -->
+            <section id="bab2">
+                <h2>Bab II: Landasan Teori</h2>
+
+                <h3 id="bab2-1">2.1 Pengertian dan Fungsi Ekosistem Mangrove</h3>
+                <p>Ekosistem mangrove adalah suatu sistem ekologi di wilayah pesisir yang didominasi oleh vegetasi mangrove. Tumbuhan mangrove, atau disebut juga bakau, adalah kelompok tumbuhan halofit, yang berarti mereka memiliki adaptasi fisiologis unik untuk bertahan hidup di lingkungan dengan salinitas (kadar garam) tinggi, substrat berlumpur yang anaerobik (miskin oksigen), dan pasang surut air laut. Adaptasi ini terlihat jelas pada bentuk akarnya, seperti akar tunjang (prop root) pada *Rhizophora* untuk menopang pohon di lumpur lunak, dan akar napas (pneumatophore) pada *Avicennia* yang mencuat ke atas untuk mengambil oksigen.</p>
+                <p>Fungsi ekosistem mangrove dapat dibagi menjadi tiga kategori utama:</p>
+                <ul>
+                    <li><strong>Fungsi Fisik:</strong> Sebagai perisai alami (green belt) yang melindungi garis pantai dari erosi, abrasi, angin kencang, dan gelombang besar termasuk tsunami. Struktur perakarannya yang rapat mampu meredam energi gelombang dan mengendapkan sedimen.</li>
+                    <li><strong>Fungsi Ekologis:</strong> Merupakan habitat vital bagi keanekaragaman hayati. Mangrove menjadi tempat berlindung, mencari makan, dan berkembang biak bagi berbagai jenis ikan, kepiting, udang, moluska, burung, dan reptil. Serasah daun mangrove yang gugur menjadi dasar rantai makanan (detritus) di ekosistem pesisir.</li>
+                    <li><strong>Fungsi Ekonomi:</strong> Secara tradisional, masyarakat memanfaatkan kayu mangrove untuk bahan bangunan dan arang. Selain itu, mangrove mendukung perikanan tangkap di sekitarnya. Saat ini, potensi jasa lingkungan seperti ekowisata dan penyerapan karbon (blue carbon) memiliki nilai ekonomi yang sangat tinggi.</li>
+                </ul>
+
+                <h3 id="bab2-2">2.2 Konservasi Hutan Mangrove</h3>
+                <p>Konservasi adalah upaya pengelolaan dan perlindungan sumber daya alam secara bijaksana untuk menjamin keberlanjutan pemanfaatannya. Dalam konteks mangrove, konservasi tidak hanya berarti perlindungan total, tetapi juga mencakup rehabilitasi dan restorasi. Rehabilitasi adalah upaya memulihkan sebagian fungsi ekosistem mangrove yang telah rusak, seringkali melalui penanaman kembali (reboisasi). Restorasi memiliki tujuan lebih kompleks, yaitu mengembalikan ekosistem ke kondisi alaminya, termasuk memulihkan hidrologi dan keanekaragaman hayati aslinya.</p>
+                <p>Penelitian terdahulu, seperti yang dilakukan oleh Sugiarto (2020), menunjukkan bahwa keberhasilan rehabilitasi mangrove sangat bergantung pada pemilihan jenis yang tepat sesuai zonasi dan perbaikan kondisi hidrologi. Penanaman monokultur seringkali gagal dalam jangka panjang. Oleh karena itu, pendekatan konservasi modern menekankan pentingnya pelibatan masyarakat (community-based management) dan edukasi untuk menjamin keberlanjutan program.</p>
+                
+                <h3 id="bab2-3">2.3 Kerangka Konseptual Kunjungan</h3>
+                <p>Kunjungan studi kami didasari oleh kerangka konseptual bahwa pemahaman yang komprehensif hanya dapat dicapai dengan menghubungkan teori di kelas dengan praktik di lapangan. Kami memposisikan Seacorm sebagai "laboratorium hidup". Dengan mengamati secara langsung (input observasi) dan membandingkannya dengan landasan teori (input literatur), kami dapat melakukan analisis (proses) untuk menghasilkan pemahaman mendalam (output) mengenai efektivitas strategi konservasi yang diterapkan di Seacorm.</p>
+            </section>
+
+            <!-- Bab III -->
+            <section id="bab3">
+                <h2>Bab III: Pembahasan dan Hasil Kunjungan</h2>
+                
+                <h3 id="bab3-1">3.1 Profil dan Program Konservasi Seacorm</h3>
+                <p>Berdasarkan hasil wawancara dengan pengelola, Seacorm (Southest Asia Center for Ocean Research and Monitoring) didirikan sebagai respons atas tingginya laju degradasi mangrove di wilayah pesisir tersebut. Visi utamanya adalah menjadi pusat unggulan restorasi ekosistem pesisir melalui tiga pilar utama: Riset, Rehabilitasi, dan Edukasi.</p>
+                <p>Program utama yang kami amati di Seacorm meliputi:</p>
+                <ol>
+                    <li><strong>Pusat Pembibitan (Nursery):</strong> Seacorm memiliki area pembibitan terpadu untuk berbagai jenis mangrove lokal. Mereka tidak hanya menanam bibit dari propagul (buah mangrove), tetapi juga melakukan riset untuk meningkatkan tingkat keberhasilan tumbuh bibit.</li>
+                    <li><strong>Zona Rehabilitasi:</strong> Terdapat area-area percontohan (pilot projects) di mana diterapkan teknik penanaman yang berbeda-id. Kami mengamati penggunaan "Ajir" (tiang bambu) untuk melindungi bibit muda dari ombak dan sampah.</li>
+                    <li><strong>Program Ekowisata Edukatif (Edu-Ecotourism):</strong> Seacorm mengelola jalur 'boardwalk' (titian kayu) yang memungkinkan pengunjung, seperti kami, untuk berjalan di tengah hutan mangrove tanpa merusak substrat lumpur. Di sepanjang jalur, terdapat papan-papan informasi yang sangat edukatif.</li>
+                </ol>
+
+                <h3 id="bab3-2">3.2 Analisis Temuan Lapangan</h3>
+                <p>Sesuai dengan rumusan masalah, berikut adalah analisis temuan kami:</p>
+                
+                <h4>Kondisi Ekosistem dan Spesies Dominan</h4>
+                <p>Kawasan Seacorm menunjukkan zonasi mangrove yang cukup jelas, meskipun di beberapa area tampak terganggu. Di zona terdepan yang langsung berhadapan dengan laut, kami mengidentifikasi dominasi spesies *Avicennia marina* (Api-api) dan *Sonneratia alba* (Pereda). Hal ini sesuai dengan teori, di mana kedua spesies ini merupakan pionir yang toleran terhadap salinitas tinggi dan substrat lumpur lunak. Lebih ke arah darat, kami menemukan *Rhizophora apiculata* (Bakau minyak) dan *Rhizophora mucronata* (Bakau kurap), yang dicirikan oleh akar tunjangnya yang kokoh. Kondisi ekosistem secara umum cukup baik di area yang direhabilitasi, ditandai dengan kembalinya biota asosiasi seperti kepiting biola (Uca spp.), ikan gelodok (mudskipper), dan berbagai jenis moluska.</p>
+
+                <h4>Ancaman dan Tantangan Utama</h4>
+                <p>Tantangan terbesar yang kami amati di Seacorm adalah masalah sampah. Sampah, terutama plastik, terlihat banyak tersangkut di akar-akar mangrove. Staf Seacorm menjelaskan bahwa ini adalah "sampah kiriman" yang berasal dari laut (marine debris) dan sungai. Sampah ini dapat menghambat pertumbuhan bibit baru (anakan) dan merusak estetika. Tantangan kedua adalah abrasi di beberapa titik yang tidak terlindungi vegetasi. Meskipun Seacorm telah berupaya keras, laju kerusakan alami dan antropogenik (akibat aktivitas manusia) di luar kawasan mereka masih tinggi, memberikan tekanan konstan pada area konservasi ini.</p>
+
+                <h3 id="bab3-3">3.3 Studi Kasus: Program Rehabilitasi dan Edukasi</h3>
+                <p>Strategi konservasi di Seacorm sangat menarik karena menggabungkan "hard-engineering" dan "soft-engineering". Di area yang abrasinya parah, mereka memasang struktur pemecah ombak (hybrid engineering) sederhana sebelum melakukan penanaman. Ini adalah studi kasus yang menunjukkan bahwa penanaman saja tidak cukup di lokasi yang terdegradasi berat; perlu ada intervensi teknis untuk memperbaiki kondisi lingkungan terlebih dahulu.</p>
+                <p>Dari sisi edukasi, program "Adopsi Mangrove" mereka sangat efektif. Pengunjung didorong untuk berpartisipasi menanam bibit mangrove dengan donasi. Program ini tidak hanya memberikan dana untuk operasional konservasi, tetapi yang lebih penting, menciptakan ikatan emosional (emotional attachment) antara pengunjung dan pohon yang mereka tanam. Hal ini, menurut kami, adalah strategi jitu untuk menumbuhkan kesadaran jangka panjang. Kunjungan kami sebagai siswa Kelas VIII B adalah bagian dari strategi edukasi yang diusung Seacorm, membuktikan keberhasilan mereka dalam menjangkau generasi muda.</p>
+            </section>
+            
+                <!-- Bab IV -->        <section idh="bab4">
+            <h2>Bab IV: Kesimpulan dan Saran</h2>
+            
+            <h3 id="bab4-1">4.1 Kesimpulan</h3>
+            <p>Setelah melakukan kunjungan studi, observasi, dan analisis, kami menarik beberapa kesimpulan utama:</p>
+            <ol>
+                <li>Kawasan Seacorm memiliki keanekaragaman mangrove yang representatif untuk ekosistem pesisir, dengan spesies dominan seperti *Avicennia marina* dan *Rhizophora apiculata*. Kondisi ekosistem di zona rehabilitasi menunjukkan tanda-tanda pemulihan yang positif.</li>
+                <li>Ancaman utama bagi konservasi mangrove di Seacorm adalah sampah kiriman (marine debris) yang bersifat eksternal dan abrasi pantai. Kedua faktor ini menghambat laju suksesi alami dan keberhasilan rehabilitasi.</li>
+                <li>Strategi konservasi Seacorm yang mengintegrasikan riset (pemilihan bibit), rehabilitasi (teknik penanaman inovatif), dan edukasi (ekowisata dan program adopsi) terbukti efektif dan komprehensif. Pendekatan ini tidak hanya memulihkan ekosistem secara fisik tetapi juga membangun kesadaran publik.</li>
+            </ol>
+
+            <h3 id="bab4-2">4.2 Saran</h3>
+            <p>Berdasarkan kesimpulan tersebut, kami ingin memberikan beberapa saran yang membangun:</p>
+            <ul>
+                <li><strong>Untuk Pihak Seacorm:</strong> Perlu adanya kolaborasi yang lebih kuat dengan pemerintah daerah dan komunitas di hulu untuk menangani masalah sampah di sumbernya. Memasang lebih banyak perangkap sampah (trash boom) di muara sungai terdekat mungkin bisa menjadi solusi jangka pendek.</li>
+                <li><strong>Untuk Pihak Sekolah:</strong> Kami merekomendasikan agar kunjungan studi seperti ini dijadikan agenda rutin dalam kurikulum. Pengalaman belajar langsung di lapangan terbukti sangat efektif dalam menanamkan konsep pelajaran Biologi dan Geografi.</li>
+                <li><strong>Untuk Siswa dan Masyarakat:</strong> Kesadaran tidak cukup jika berhenti pada pengetahuan. Diperlukan aksi nyata, yang dapat dimulai dari hal sederhana seperti mengurangi penggunaan plastik sekali pakai yang berpotensi berakhir sebagai sampah di laut dan merusak ekosistem mangrove.</li>
+            </ul>
+        </section>
+        
+        <!-- Daftar Pustaka -->
+        <section id="daftar-pustaka">
+            <h2>Daftar Pustaka</h2>
+            <p>Dalam penyusunan laporan ini, kami mengacu pada materi yang diberikan oleh pemandu Seacorm serta beberapa literatur pendukung (fiktif untuk keperluan laporan ini):</p>
+            <ul class="list-none ml-0 space-y-3">
+                <li>Arief, A. (2019). <em>Hutan Mangrove: Fungsi, Manfaat dan Upaya Pelestariannya</em>. Jakarta: Penerbit Kanisius.</li>
+                <li>Kementerian Lingkungan Hidup dan Kehutanan. (2022). <em>Peta Mangrove Nasional 2021</em>. Diakses dari situs resmi KLHK (Data digunakan sebagai pembanding teoritis).</li>
+                <li>Pratama, R., & Dewi, L. (2021). Efektivitas Program Rehabilitasi Mangrove Berbasis Masyarakat di Pesisir Utara Jawa. <em>Jurnal Ilmu Kelautan dan Perikanan</em>, 12(2), 45-56.</li>
+                <li>Seacorm. (2024). <em>Materi Panduan Kunjungan Ekowisata Edukasi Seacorm</em>. [Brosur/Materi Internal]. Seacorm Press.</li>
+                <li>Sugiarto, A. (2020). <em>Teknik Rehabilitasi Mangrove: Studi Kasus Kegagalan dan Keberhasilan</em>. Yogyakarta: Gadjah Mada University Press.</li>
+            </ul>
+        </section>
+
+        <!-- Lampiran -->
+        <section id="lampiran">
+            <h2>Lampiran</h2>
+            <h3>Foto-foto Kegiatan Kunjungan di Seacorm</h3>
+            <p>Berikut adalah dokumentasi visual yang kami ambil selama kegiatan kunjungan studi di Seacorm, yang menunjukkan area pembibitan, jalur boardwalk, dan kondisi hutan mangrove.</p>
+            
+            <!-- Galeri Foto -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div class="bg-gray-100 p-3 rounded-lg shadow-md">
+                    <img src="https://files.catbox.moe/es2xtf.jpg" alt="Foto Kegiatan 1" class="w-full h-auto rounded-md object-cover"
+                         onerror="this.src='https://placehold.co/600x400/eeeeee/999999?text=Foto+1+Gagal+Dimuat'; this.onerror=null;">
+                    <p class="text-center text-sm text-gray-600 mt-2">Dokumentasi 1: Area pembibitan mangrove.</p>
+                </div>
+                <div class="bg-gray-100 p-3 rounded-lg shadow-md">
+                    <img src="https://files.catbox.moe/9ao9gp.jpg" alt="Foto Kegiatan 2" class="w-full h-auto rounded-md object-cover"
+                         onerror="this.src='https://placehold.co/600x400/eeeeee/999999?text=Foto+2+Gagal+Dimuat'; this.onerror=null;">
+                    <p class="text-center text-sm text-gray-600 mt-2">Dokumentasi 2: Jalur boardwalk untuk edukasi.</p>
+                </div>
+                <div class="bg-gray-100 p-3 rounded-lg shadow-md">
+                    <img src="https://files.catbox.moe/z1o2as.jpg" alt="Foto Kegiatan 3" class="w-full h-auto rounded-md object-cover"
+                         onerror="this.src='https://placehold.co/600x400/eeeeee/999999?text=Foto+3+Gagal+Dimuat'; this.onerror=null;">
+                    <p class="text-center text-sm text-gray-600 mt-2">Dokumentasi 3: Kondisi perakaran mangrove di zona rehabilitasi.</p>
+                </div>
+                <div class="bg-gray-100 p-3 rounded-lg shadow-md">
+                    <img src="https://files.catbox.moe/twj3nw.jpg" alt="Foto Kegiatan 4" class="w-full h-auto rounded-md object-cover"
+                         onerror="this.src='https://placehold.co/600x400/eeeeee/999999?text=Foto+4+Gagal+Dimuat'; this.onerror=null;">
+                    <p class="text-center text-sm text-gray-600 mt-2">Dokumentasi 4: Sesi diskusi dengan pemandu Seacorm.</p>
+                </div>
+            </div>
+        </section>
+
+    </article>
+
+    <!-- Footer Laporan -->
+    <footer class="p-8 bg-gray-800 text-gray-300 text-center">
+        <p>&copy; 2025 - Laporan Kunjungan Studi Kelas VIII B | SMP Negeri 2 Negara</p>
+    </footer>
+
+</main>
+</body></html>
